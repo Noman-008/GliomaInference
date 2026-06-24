@@ -23,24 +23,31 @@ Model performance is evaluated using:
 ```
 GliomaInference/
 │
-├── codes/        → Core modeling, and Bayesian Inference
+├── BayesianInference/        → Core modeling, and Inference
+├── W05_data/                 → Rat data and mesh
 ```
 
 ---
 
 ## 🔍 Folder Descriptions
 
-### `codes/`
+### `BayesianInference`
 
 Contains the complete computational framework:
 
 * Forward models (Mech-RD basically the Hyperelastic setup)
 * Bayesian inference (MAP, LA)
+
+### `W05_data`
+
+Contains the data:
+
 * MRI dataset
 * FE Mesh
 
 📌 Detailed instructions and module descriptions are provided in:
 
 ```
-codes/README.md
+BayesianInference/README.md
+W05_data/READNE.md
 ```
