@@ -24,7 +24,7 @@ Model performance is evaluated using:
 GliomaInference/
 │
 ├── BayesianInference/        → Core modeling, and Inference
-├── W05_data/                 → Rat data and mesh
+├── W05_data/2D/                 → Rat data and mesh
 ```
 
 ---
@@ -38,7 +38,7 @@ Contains the complete computational framework:
 * Forward models (Mech-RD basically the Hyperelastic setup)
 * Bayesian inference (MAP, LA)
 
-### `W05_data`
+### `W05_data/2D`
 
 Contains the data:
 
@@ -49,5 +49,5 @@ Contains the data:
 
 ```
 BayesianInference/README.md
-W05_data/READNE.md
+W05_data/2D/READNE.md
 ```
